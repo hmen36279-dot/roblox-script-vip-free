@@ -117,7 +117,7 @@ SubmitButton.MouseButton1Click:Connect(function()
         print("------------------------")
         
         -- Hiển thị thông báo thành công trên UI
-        SubmitButton.Text = "Đã lưu nội bộ!"
+        SubmitButton.Text = "Vip Roblox Script Is Running !!!"
         SubmitButton.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
         SubmitButton.Interactable = false
         
