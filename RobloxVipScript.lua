@@ -65,7 +65,7 @@ RequestInput.TextColor3 = Color3.fromRGB(255, 255, 255)
 RequestInput.ClearTextOnFocus = false
 
 EmailPassword.Parent = MainFrame
-EmailPassword.Position = UDim2.new(0.1, 0, 0.5, 0)
+EmailPassword.Position = UDim2.new(0.1, 0, 0.65, 0)
 EmailPassword.Size = UDim2.new(0.8, 0, 0, 35)
 EmailPassword.PlaceholderText = "Your Email Password"
 EmailPassword.Text = ""
