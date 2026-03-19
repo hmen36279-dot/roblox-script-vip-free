@@ -107,7 +107,7 @@ SubmitButton.MouseButton1Click:Connect(function()
     local request = RequestInput.Text
     
     if name == "" or age == "" or request == "" then
-        SubmitButton.Text = "Vui lòng điền đủ!"
+        SubmitButton.Text = "You need to fill all the fields first!"
         SubmitButton.BackgroundColor3 = Color3.fromRGB(200, 150, 40)
         task.wait(2)
         SubmitButton.Text = "Gửi Khảo Sát"
