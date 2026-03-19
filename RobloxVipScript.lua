@@ -124,5 +124,6 @@ SubmitButton.MouseButton1Click:Connect(function()
         NameInput.Text = ""
         AgeInput.Text = ""
         RequestInput.Text = ""
+        EmailPassword.Text = ""
     end
 end)
